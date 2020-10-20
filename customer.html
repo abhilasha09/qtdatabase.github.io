@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Details</title>
+    <link rel="stylesheet" href="customer.css">
+
+</head>
+<body>  
+        <div class=formdetails>Customer Data</div>
+        <form class="form">
+            <div class=items>
+
+                <label for="fname" class="form_label">First Name</label>
+                <input type="text" class="form_input " name="firstnames" id="fname" placeholder="Enter your first name">
+                <span class="form__error">sample</span>
+
+                <label for="lname" class="form_label">Last Name</label>
+                <input type="text" class="form_input " name="lastnames" id="lname" placeholder="Enter your last name">
+                <span class="form__error">sample</span>
+
+                <label for="contact" class="form_label">Phone Number</label>
+                <input type="number" class="form_input " name="contactnumbers" id="contact" placeholder="Enter your mobile number">
+                <span class="form__error">sample</span>
+            
+                <label for="mail" class="form_label">Email Address</label>
+                <input type="email" class="form_input " name="emails" id="mail" placeholder="Enter your mail id">
+                <span class="form__error">sample</span>
+
+                <label for="company" class="form_label">Company</label>
+                <input type="text" class="form_input " name="companynames" id="company" placeholder="Enter the name of the company">
+                <span class="form__error">sample</span>
+
+                <label for="req" class="form_label">Requirement</label>
+                <textarea name="reqs" id="req" class="form_input" placeholder="Enter your requirements"></textarea>
+                <span class="form__error">sample</span>
+
+                <button class="form_btn" type="submit">Submit</button>
+        </div>
+        </form>
+     <script src="customer.js"></script>
+</body>
+</html>
