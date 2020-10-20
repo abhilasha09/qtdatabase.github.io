@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+.form
+{
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 16px;
+}
+.form *{
+    box-sizing: border-box ;
+    line-height: 1.5;
+
+}
+.formdetails
+{
+    font-size: 2em;
+    font-weight: 600;
+}
+.items
+{
+    display:flex;
+    flex-direction: column;
+}
+.items > *
+{
+    align-self: flex-start;
+}
+.form_label
+{
+    font-weight: 600;
+    padding: 10px 0;
+}
+.form_input
+{
+    width: 100%;
+    max-width: 425px;
+    padding: 0.8em;
+    font-size: 0.9em;
+    font-family: sans-serif;
+
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 4px;
+    background: #f9f9f9;
+    transition: background 0.25s, border-color 0.25s, color 0.25s;
+}
+.form_input:focus{
+    background: white ;
+}
+.form_input::placeholder
+{
+    color: #bbbbbb;
+}
+.form__input--error {
+    color: #d50000;
+    background: #fff8f8;
+    border-color: #d50000;
+  }
+  
+  .form__input--error::placeholder {
+    color: #ffbfbf;
+  }
+  
+  .form__error {
+    padding-top: 10px;
+    color: #d50000;
+    font-size: 0.9em;
+    visibility: hidden;
+  }
+  
+  .form__input--error + .form__error {
+    visibility: visible;
+  }
+.form_btn
+{
+    font-family: sans-serif;
+    font-weight:600;
+    font-size: 1.1em;
+    padding: 10px 16px;
+    margin:10px 0;
+
+    color: white;
+    background: green;
+    border: 2px solid #0fa942;
+    border-radius: 5px;
+
+    cursor: pointer;
+    outline:none;
+
+}
+.form_btn:active{
+    background: green;
+}
